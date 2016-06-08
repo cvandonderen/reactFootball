@@ -12,7 +12,7 @@ import Config from './config'
 var MainPage = React.createClass({
     getInitialState: function() {
         return {
-            dataSource:new ListView.DataSource({
+            dataSource: new ListView.DataSource({
                 rowHasChanged: (row1, row2) => row1 !== row2
             }),
             isLoading: true,
@@ -122,7 +122,6 @@ var styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-around'
     },
-
 });
 
 module.exports = MainPage;
