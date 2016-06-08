@@ -26,6 +26,7 @@ page containing more details of which actions happened during the match.
 * Add some way to change the day for which to display matches. This can initially be a plain date
 picker, but it would be great if the API can return a list of match dates, to only allow selection
 of days on which there were matches.
+* Add error handling on REST calls.
 * Split the matches on the main page by competition with section headers.
 * Have a good ordering in the detail page, with more important stats at the top.
 * Do not assume all matches are finished. Some refresh behavior should be implemented. Starting
